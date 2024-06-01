@@ -1,0 +1,454 @@
+body{
+    display: block;
+    margin: auto;
+}
+
+.header{
+    width: 1400px;
+    display: block;
+    margin: auto;
+}
+.logo{
+    position: relative;
+    top: -730px; left: 320px;
+    width: 150px;
+    display: block;
+}
+.servis{
+    position: relative;
+    top: -750px; left: 1150px;
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    width: 280px;
+    height: 50px;
+    display: flex;
+    font-size: 18px;
+    font-family:  Arial, sans-serif;
+}
+.se{
+    position: relative;
+    top: 0px; left: 50px; 
+}
+.pr{
+   position: relative;
+   top: 0px; left: 100px; 
+}
+.contact{
+    position: relative;
+    top: -900px; left: 1480px;
+    width: 140px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background-color: hsl(0, 0%, 100%);
+    display: inline-block;
+}
+.contact:hover{
+    cursor: pointer;
+    background-color: hsla(198, 92%, 90%, 0.384);
+    color: hsl(0, 0%, 100%);
+}
+h1{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    top: -800px; left: 500px;
+    font-size: 60px;
+    display: inline-block;
+}
+.arrow{
+    position: relative;
+    top: -510px; left: 190px;
+    display: inline-block;
+}
+.div1{
+    background-color: hsl(0, 0%, 100%);
+    display: inline-block;
+    position: relative;
+    top: -351px; left: 252px;
+    width: 700px;
+    height: 583px;
+    
+}
+h2{
+    font-size: 50px;
+    position: relative;
+    top: 105px; left: 130px;
+}
+p.we{
+  font-size: 20px;
+  position: relative;
+  top: 90px; left: 130px;
+  color: hsl(232, 10%, 55%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.link1 {
+    position: relative;
+    top: 130px; left: 130px;
+    display: inline-block;
+    color: black; /* მოარგეთ საჭიროებისამებრ */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 8px;
+    background-color:  hsla(59, 100%, 48%, 0.459);
+    transition: background-color 0.3s; 
+    border-radius: 20px;
+}
+
+.link1:hover::after {
+    background-color: gold; 
+}
+
+.link1:hover {
+    cursor: pointer;
+}
+.imtransform{
+    position: relative;
+    top: -298px; left: 700px;
+    width: 700px;
+}
+.div2{
+    background-color: hsl(0, 0%, 100%);
+    display: inline-block;
+    position: relative;
+    top: 232px; left: 248px;
+    width: 700px;
+    height: 583px;
+}
+.h3{
+    position: relative;
+    top: 105px; left:130px;
+}
+.using{
+  font-size: 20px;
+  position: relative;
+  top: 90px; left: 130px;
+  color: hsl(232, 10%, 55%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.link2 {
+    position: relative;
+    top: 130px; left: 130px;
+    display: inline-block;
+    color: black; /* მოარგეთ საჭიროებისამებრ */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 8px;
+    background-color:  hsla(7, 99%, 70%, 0.459);
+    transition: background-color 0.3s; 
+    border-radius: 20px;
+}
+
+.link2:hover::after {
+    background-color: hsl(7, 99%, 70%); 
+}
+
+.link2:hover {
+    cursor: pointer;
+}
+.imstand{
+    position: relative;
+    top: -298px; left: -700px;
+    width: 700px;
+}
+.div3{
+    display: inline-block;
+    text-align: center;
+    margin: 0px;
+    width: 700px;
+    height: 582px;
+    position: relative;
+    top: -70px; left: 252px;
+}
+h3{
+    position: relative;
+    top: -224px; left: -8px;
+    color: hsl(167, 40%, 24%);
+    font-size: 30px;
+    font-weight: bold;
+}
+.great{
+  position: relative;
+  top: -225px; left: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(167, 40%, 24%);
+  line-height: 27px;
+  font-weight: bold;
+}
+.imgraphic{
+    width: 700px;
+    position: relative;
+    top: 0px; left: 0px;
+}
+.div4{
+    display: inline-block;
+    text-align: center;
+    margin: 0px;
+    width: 700px;
+    height: 582px;
+    position: relative;
+    top: -70px; left: 248px;
+
+}
+.imphotography{
+width: 700px;
+}
+.hhh{
+    color: hsl(198, 62%, 26%);
+    font-weight: bold;
+}
+.increase{
+    position: relative;
+  top: -225px; left: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(198, 62%, 26%);
+  line-height: 27px;
+  font-weight: bold;
+}
+.client{
+    display: inline-block;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+    top: -50px; left: -600px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: hsl(210, 4%, 67%);
+}
+.div5{
+    display: inline-block;
+    position: relative;
+    top: 20px; left: 410px;
+}
+.emily{
+    width: 80px;
+    clip-path: circle(50% at 50% 50%);
+    position: relative;
+    top: 0px; left: 120px;
+}
+.put{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(235, 7%, 38%);
+    padding: 40px 0px 0px 0px;
+    line-height: 27px;
+}
+.em{
+    position: relative;
+    top: 0px; left: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 50px 0px 0px 0px;
+    display: inline-block;
+}
+.director{
+    position: relative;
+    top: 25px; left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    color: hsl(210, 4%, 67%);
+}
+.div6{
+    display: inline-block;
+    position: relative;
+    top: 19px; left: 475px;
+}
+.thomas{
+    width: 80px;
+    clip-path: circle(50% at 50% 50%);
+    position: relative;
+    top: 0px; left: 120px;
+}
+.sunn{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(235, 7%, 38%);
+    padding: 38px 0px 0px 0px;
+    line-height: 27px;
+}
+.thom{
+    position: relative;
+    top: 0px; left: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 50px 0px 0px 0px;
+    display: inline-block;
+}
+.officer{
+    position: relative;
+    top: 25px; left: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    color: hsl(210, 4%, 67%);
+}
+.div7{
+    display: inline-block;
+    position: relative;
+    top: 19px; left: 515px;
+}
+.jennie{
+    width: 80px;
+    clip-path: circle(50% at 50% 50%);
+    position: relative;
+    top: 0px; left: 120px;
+}
+.increadible{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(235, 7%, 38%);
+    padding: 38px 0px 0px 0px;
+    line-height: 27px;
+}
+.jen{
+    position: relative;
+    top: 0px; left: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 50px 0px 0px 0px;
+    display: inline-block; 
+}
+.owner{
+    position: relative;
+    top: 25px; left: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    color: hsl(210, 4%, 67%);
+}
+.div8{
+    position: relative;
+    top: 180px; left: 250px;
+    display: inline-block;
+}
+.milk{
+    width: 350px;
+}
+.orange{
+    width: 350px;
+    position: relative;
+    left: -4px;
+}
+.gallery{
+    width: 350px;
+    position: relative;
+    left: -8px;
+}
+.sugar{
+    width: 350px;
+    position: relative;
+    left: -12px;
+}
+.div9{
+    position: relative;
+    top: 175px; left: 250px;
+    width: 1400px;
+    height: 350px;
+    display: inline-block;
+    background-color: hsl(168, 35%, 66%);
+}
+.sun{
+   position: relative;
+   top: 30px; left: 610px;
+   color: hsl(168, 34%, 25%);
+   font-size: 35px;
+   font-family: Arial, Helvetica, sans-serif;
+   display: inline-block;
+}
+.service2{
+   position: relative;
+   top: 100px; left: 380px;
+   display: inline-flex;
+   font-family: Arial, Helvetica, sans-serif;
+   width: 300px;
+}
+div.abb:hover{
+   cursor: pointer;
+   color: hsl(0, 0%, 100%);
+}
+.see{
+    position: relative;
+    top: 0px; left: 70px;
+}
+div.see:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+}
+.prr{
+    position: relative; 
+    top: 0px; left: 130px; 
+}
+div.prr:hover{
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+}
+.socCsel{
+    position: relative;
+    top: 220px; left: 150px;
+    display: inline-block;
+    width: 150px;
+}
+.face img{
+    position: relative;
+    top: 50px; left: 0px;
+    transition: filter 0.3s ease;
+}
+.face img:hover{
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+}
+.insta img{
+    position: relative;
+    top: 25px; left: 40px;
+    transition: filter 0.3s ease;
+}
+.insta img:hover{
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+}
+.twitter-logo img {
+    transition: filter 0.3s ease;
+    position: relative;
+    top: 4px; left: 80px;
+}
+
+.twitter-logo img:hover {
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+}
+
+.pinter img{
+    position: relative;
+    top: -20px; left: 120px;
+    transition: filter 0.3s ease;
+}
+.pinter img:hover{
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+}
